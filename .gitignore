@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+Part 7 - Loading Image Data (exo)_v2.ipynb
+
+.vscode/*
