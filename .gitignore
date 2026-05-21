@@ -215,3 +215,5 @@ Part 7 - Loading Image Data (exo)_v2.ipynb
 
 data/*
 test.py
+*.pth
+tptest.py
