@@ -68,7 +68,7 @@ Les données sont ensuite réparties dynamiquement lors de l'exécution :
 
 ## Paramètres d'entraînement et Exécution
 
-L'entraînement est piloté par l'outil d'optimisation Optuna suivi d'un entraînement final journalisé avec MLflow. Les paramètres globaux sont : `Batch size = 32`, `Epochs = 20`.
+L'entraînement est piloté par l'outil d'optimisation Optuna suivi d'un entraînement final journalisé avec MLflow. Les paramètres globaux sont : `Batch size = 32`, `Epochs = 20`. Optuna teste les hyperparamètres (Adam et SGD pour l'optimiseur, et un choix entre 1e-4, 1e-3 et 1e-2) sur la moitié des épochs de l'entrainement finale soit 10 epochs. Ceci, pour accélerer le temps mis pour trouver les bons hyperparamètres.
 
 1. Entraînement From Scratch
 
