@@ -95,7 +95,9 @@ L'entraînement est piloté par l'outil d'optimisation Optuna suivi d'un entraî
 1. Préparation : Placez vos données brutes dans le dossier data/Cat_Dog_data. Le script se chargera de les réorganiser.
 2. Lancement de MLflow : Pour visualiser vos entraînements en temps réel, ouvrez un terminal et lancez l'interface MLflow (assurez-vous que le port 5000 de ovtre machine soit disponible) :
 
-    > mlflow ui
+    ```bash
+    mlflow ui
+    ```
 
     Rendez-vous ensuite sur [http://localhost:5000](http://localhost:5000) dans votre navigateur.
 
